@@ -109,6 +109,7 @@ ul a:hover {
     background: url(./assets/vector/Vector.svg);
     background-repeat: no-repeat;
     background-position: right top -30px;
+    background-size: 43%;
 }
 
 .hero {
@@ -116,7 +117,8 @@ ul a:hover {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: auto;
-    min-height: calc(100vh - 68px);
+    /* min-height: calc(100vh - 68px); */
+    min-height: 580px;
     margin-bottom: 50px;
 }
 
@@ -645,9 +647,9 @@ label img {
     .hero {
         background-image: url(./assets/mobile-hero-bg.png);
         background-repeat: no-repeat;
-        background-position: bottom center;
-        background-size: contain;
-        height: 100vh;
+        background-position: bottom;
+        background-size: 100%;
+        min-height: 750px;
     }
 
     .hero .hero-content h1 {
