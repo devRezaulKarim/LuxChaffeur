@@ -719,6 +719,10 @@ label img {
 
     }
 
+    .testimonials-section {
+        padding: 80px 10px;
+    }
+
     .testimonial-content {
         grid-template-columns: repeat(1, 1fr);
 
