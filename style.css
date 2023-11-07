@@ -537,7 +537,7 @@ footer {
     position: absolute;
     top: -40px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-45%);
 }
 
 .footer-bottom .social-links a {
@@ -592,10 +592,6 @@ label img {
         display: block;
         position: absolute;
         background-color: rgba(34, 38, 47, 0.95);
-        /* top: -100%;
-        right: -100%; */
-        /* width: 200px;
-        height: 100%; */
         right: 0;
         top: 68px;
         width: 0;
